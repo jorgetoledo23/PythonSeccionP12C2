@@ -1,6 +1,7 @@
-#string -> cadena de texto / literal <class 'str'>
-nombre = "Jorge Toledo"
-print(type(nombre))
-apellido = "Toledo"
-direccion = "Merced 750 Curico"
-telefono = "+569 1234 1234"
+edad = False
+while not(edad):
+    try:
+        edad = int(input("Ingrese su Edad: "))
+    except:
+        print("El Dato ingresado NO corresponde a una Edad VALIDA!")
+print("Dato ingresado con Exito!")
