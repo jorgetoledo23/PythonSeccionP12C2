@@ -73,7 +73,3 @@ while not(edad):
     except:
         print("El Dato ingresado NO corresponde a una Edad VALIDA!")
 print("Dato ingresado con Exito!")
-
-
-
-

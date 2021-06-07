@@ -50,4 +50,4 @@ if not(direccion == "curico"):
 
 
 if not(direccion == "curico"): print("Asignar Movilizacion")
-else: print("NO asignar movilizacion")
+#else: print("NO asignar movilizacion")
